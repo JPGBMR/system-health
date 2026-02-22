@@ -1,5 +1,6 @@
 # System Health
 
+[![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)](https://github.com/JPGBMR/system-health)
 A Python script that collects key system metrics, grades each one, and outputs a structured report to both the terminal and a dated log file.
 
 ## What It Does
@@ -42,3 +43,14 @@ A log file named `YYYYDDMM_system_health.log` is created in the working director
 
 - Python 3.x
 - `psutil`
+
+## Getting Started
+
+Run the main script in PowerShell:
+
+```powershell
+.\run.ps1
+```
+
+---
+*Part of the [JPGBMR](https://github.com/JPGBMR) open-source portfolio.*
